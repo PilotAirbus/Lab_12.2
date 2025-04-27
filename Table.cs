@@ -97,7 +97,7 @@
     {
         if (set == null)
         {
-            throw new InvalidOperationException("Таблица не создана");
+            throw new Exception("Таблица не создана");
         }
         
         for (int i = 0; i < set.Length; i++)

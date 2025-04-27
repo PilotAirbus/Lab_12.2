@@ -52,3 +52,4 @@ C:/Users/89194/OneDrive/Рабочий стол/LR 12/LAB12/Lab12/obj/Debug/net8
 /Users/sergejbaskirov/Desktop/ЛР итог/LR 12/LAB12/Lab12/obj/Debug/net8.0/Lab12.pdb
 /Users/sergejbaskirov/Desktop/ЛР итог/LR 12/LAB12/Lab12/obj/Debug/net8.0/Lab12.genruntimeconfig.cache
 /Users/sergejbaskirov/Desktop/ЛР итог/LR 12/LAB12/Lab12/obj/Debug/net8.0/ref/Lab12.dll
+/Users/sergejbaskirov/Desktop/ЛР итог/LR 12/LAB12/Lab12/obj/Debug/net8.0/Lab12.sourcelink.json

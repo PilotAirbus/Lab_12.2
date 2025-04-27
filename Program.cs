@@ -522,14 +522,14 @@ namespace Lab12
 
             while (number != 7)
             {
-                Console.Clear();
+                //Console.Clear();
                 number = FirstTableMenu();
 
                 switch (number)
                 {
                     case 1: //Создание
                         {
-                            Console.WriteLine();
+                            Console.WriteLine("Таблица создана");
 
                             tools = new Table<Tool>();
                             break;
@@ -563,7 +563,7 @@ namespace Lab12
                                             tool.IRandomInit();
 
                                             tools.Add(tool);
-
+                                            Console.WriteLine(tool);
                                             break;
                                         }
                                 }
@@ -652,10 +652,15 @@ namespace Lab12
                             try
                             {
                                 Console.WriteLine();
+                                if (tools == null)
+                                {
+                                    Console.WriteLine("Таблица не создана");
+                                    break;
+                                }
                                 tools.Print();
 
                             }
-                            catch (InvalidOperationException ex)
+                            catch (Exception ex)
                             {
                                 Console.WriteLine(ex.Message);
                             }

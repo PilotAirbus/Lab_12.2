@@ -1,0 +1,96 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0": {
+      "ToolLibrary/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/ToolLibrary.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ToolLibrary.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ToolLibrary/1.0.0": {
+      "type": "project",
+      "path": "../ToolLibrary/ToolLibrary.csproj",
+      "msbuildProject": "../ToolLibrary/ToolLibrary.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0": [
+      "ToolLibrary >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "/Users/sergejbaskirov/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/Users/sergejbaskirov/Desktop/ЛР итог/LR 12/LAB12/Lab12/Lab12.csproj",
+      "projectName": "Lab12",
+      "projectPath": "/Users/sergejbaskirov/Desktop/ЛР итог/LR 12/LAB12/Lab12/Lab12.csproj",
+      "packagesPath": "/Users/sergejbaskirov/.nuget/packages/",
+      "outputPath": "/Users/sergejbaskirov/Desktop/ЛР итог/LR 12/LAB12/Lab12/obj/",
+      "projectStyle": "PackageReference",
+      "UsingMicrosoftNETSdk": false,
+      "configFilePaths": [
+        "/Users/sergejbaskirov/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0"
+      ],
+      "sources": {
+        "/usr/local/share/dotnet/library-packs": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "projectReferences": {
+            "/Users/sergejbaskirov/Desktop/ЛР итог/LR 12/LAB12/ToolLibrary/ToolLibrary.csproj": {
+              "projectPath": "/Users/sergejbaskirov/Desktop/ЛР итог/LR 12/LAB12/ToolLibrary/ToolLibrary.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      }
+    },
+    "frameworks": {
+      "net8.0": {
+        "targetAlias": "net8.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.401/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
